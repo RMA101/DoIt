@@ -13,6 +13,7 @@
 		70BE55391DF0D09700D5F0F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70BE55381DF0D09700D5F0F9 /* Assets.xcassets */; };
 		70BE553C1DF0D09700D5F0F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70BE553A1DF0D09700D5F0F9 /* LaunchScreen.storyboard */; };
 		70BE55441DF0D12200D5F0F9 /* DoItViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BE55431DF0D12200D5F0F9 /* DoItViewController.swift */; };
+		70BE55471DF0D81500D5F0F9 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BE55461DF0D81500D5F0F9 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		70BE553B1DF0D09700D5F0F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70BE553D1DF0D09700D5F0F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70BE55431DF0D12200D5F0F9 /* DoItViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoItViewController.swift; sourceTree = SOURCE_ROOT; };
+		70BE55461DF0D81500D5F0F9 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				70BE55431DF0D12200D5F0F9 /* DoItViewController.swift */,
+				70BE55461DF0D81500D5F0F9 /* Task.swift */,
 				70BE55321DF0D09700D5F0F9 /* Main.storyboard */,
 				70BE55451DF0D1DA00D5F0F9 /* Supporting Files */,
 			);
@@ -148,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70BE55471DF0D81500D5F0F9 /* Task.swift in Sources */,
 				70BE55371DF0D09700D5F0F9 /* DoIt.xcdatamodeld in Sources */,
 				70BE55441DF0D12200D5F0F9 /* DoItViewController.swift in Sources */,
 				70BE552F1DF0D09700D5F0F9 /* AppDelegate.swift in Sources */,
